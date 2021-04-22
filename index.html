@@ -9,7 +9,7 @@
 
         <link
             rel="stylesheet"
-            href="http://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css"
+            href="https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css"
         />
         <link
             crossorigin="anonymous"
@@ -19,11 +19,11 @@
         >
         <script
             crossorigin
-            src="http://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js"
+            src="https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js"
         ></script>
         <script
             crossorigin
-            src="http://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js"
+            src="https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js"
         ></script>
 
         <script type="module">
@@ -41,9 +41,6 @@
                 min-height: 100vh !important;
                 margin: 0;
             }
-            .btn-box {
-                height: 8rem !important;
-            }
         </style>
     </head>
     <body>
@@ -52,22 +49,9 @@
                     <img src="./assets/ruta-tren.jpg" class="img-fluid" style="width: 500px;" alt="ruta tren">   
             </div>
         </div>
-        <div class="container btn-box pb-5 pt-4" >
-            <div class="row h-100 justify-content-center">
-              <div class="col-5 col-md-4 d-grid text-center">
-                <button type="button" class="btn btn-outline-info">
-                    SOURCE CODE
-                </button>
-              </div>
-              <div class="col-5 col-md-4 d-grid text-center">
-                <button type="button" class="btn btn-outline-info">
-                    PAYLOAD STRUCTURE
-                </button>
-              </div>
-            </div>
-        </div>
+        
 
-        <div class="container pb-5" >
+        <div class="container pb-1" >
             <div class="row justify-content-center text-primary">
                 <div class="col-10 col-md-8 d-grid">
                     Note: tests ran on page load. However, main entry function (window.getRoute) and graph payload (window.basePayload) have been loaded on window object for in-cosole checking.
@@ -83,6 +67,31 @@
                         // "G->H->I"<br>
                     </code>
                 </div>
+            </div>
+        </div>
+
+        <div class="container btn-box pt-4 pb-4" >
+            <div class="row justify-content-center">
+              <div class="col-5 col-md-4 d-grid text-center">
+                <button
+                    href="https://github.com/enpepolicy/boodaFirstRound"
+                    target="_blank"
+                    type="button"
+                    class="btn btn-outline-info"
+                >
+                    SOURCE CODE
+                </button>
+              </div>
+              <div class="col-5 col-md-4 d-grid text-center">
+                <a
+                    href="https://github.com/enpepolicy/boodaFirstRound/blob/main/assets/payload.js"
+                    target="_blank"
+                    type="button"
+                    class="btn btn-outline-info"
+                >
+                    PAYLOAD STRUCTURE
+                </a>
+              </div>
             </div>
         </div>
     </body>
