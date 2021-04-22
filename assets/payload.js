@@ -1,3 +1,5 @@
+// Adjacency List based payload
+
 export default {
     A: {
             connections: ['B'],
